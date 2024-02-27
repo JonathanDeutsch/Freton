@@ -1,0 +1,15 @@
+function [donor, acceptor, timeAxis] = npz2traces(npz_data_mat)
+%NPZ2TRACES Translates raw mat data to usable trace data
+
+load(npz_data_mat);
+donor = [];
+acceptor = [];
+timeAxis = [];
+
+for i = 1 : size(arr_0, 1)
+    donor = horzcat(donor, transpose(arr_0(i,:,1)));
+    acceptor = horzcat(acceptor, transpose(arr_0(i,:,2)));
+    timeAxis = horzcat(timeAxis, i);
+end
+end
+
