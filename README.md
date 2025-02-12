@@ -29,13 +29,14 @@ Navigate to kit_kat_launch.m in the main repository to launch the GUI menu. Open
 
 Sample Data
 -----------
-See the smFRETSampleData folder.
+Test data can be found in the smFRETSampleData folder.
 
 Citing FRET.ai 
 -------------
 If you use our software or algorithms in your data analysis please cite the following paper: 
 
-Jonathan Deutsch, Srikara Vishnubhatla, Gabriele Boncoraglio, John Janetzko, Brian K. Kobilka, Steven Chu* and Rabindra V. Shivnaraine*. smFRET.ai: A fully integrated software suite for analysis of smFRET data. _Puplication in progress_ (2024). 
+Jonathan Deutsch, Srikara Vishnubhatla, Gabriele Boncoraglio, John Janetzko, Brian K. Kobilka, Steven Chu* and Rabindra V. Shivnaraine*. smFRET.ai: A fully integrated software suite for analysis of smFRET data. _Puplication in progress_ (2025). 
+*Corresponding authors: rvshiv@stanford.edu (RVS)
 
 Acknowledgments
 ---------------
