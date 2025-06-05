@@ -1,5 +1,5 @@
 
-smFRET.ai: software for visualization and analysis of smFRET data
+smFRET.ai: a software for processing and visualization of smFRET data
 ========================================================================
 
 Single-molecule FRET (smFRET) enables real-time analysis of biomolecular dynamics, but data processing remains a barrier due to the reliance on complex, often custom-built tools. While several software solutions exist, they typically offer either ease of use or flexibility in data handling — rarely both. This flexibility is essential, as difficult protein systems generate data with highly variable noise and signal characteristics. Our software package addresses this challenge by combining a user-friendly GUI with optional fine-grained control over processing parameters and standard analysis algorithms at multiple stages of the pipline. It supports 1–4 color imaging and is compatible with other popular analysis packages and integrated with kinetic toolkits for streamlined downstream analysis.
