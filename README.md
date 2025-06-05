@@ -21,11 +21,13 @@ The code has been tested to work on MATLAB version R2023b or earlier.
 
 Data format
 -----------
-Data can be loaded in the .TIF file format using the KAT module from movies collected using 1-2 cameras with 1-2 channel image splitting (vertical or horizontal). Movies can be loaded individually or using "batch mode" to pull multiple movies using the same parameters. You can also load binary files from data collected using avalanche photodiodes (APDs). Instructions are integrated into the GUI under the question mark icons. Once extracted traces are saved, press the "KAT" button to launch the module for manual and emperical filtering of the traces.
+Movies of single molecules can be loaded in the .TIF file format using module 1 (KAT) from movies collected using 1-2 cameras with 1-2 channel image splitting. Movies can be loaded individually or using "batch mode" to pull multiple movies using the same parameters. Extracted donor and acceptor intensity traces are stored in .mat structures that are passed between modules.
 
-Using smFRET.ai
+Using Fréton
 ---------------
-Navigate to kit_kat_launch.m in the main repository to launch the GUI menu. Open the KAT module to load your data to extract traces from FRETing molecules. Traces can be loaded into the KIT module for further selection, launched from KAT or the main menu. A typical workflow is illustrated in the diagram below.
+Navigate to kit_kat_launch.m in the main repository to launch the GUI menu. Open the KAT module (Module 1) to load your data, computationally register the channels, and extract intensity traces from FRETing molecules. Instructions are integrated into the GUI via 'Quickguide' popups.
+
+The trace visualization and selection module (Module 2A; KAT) can be launched from the main menu or directly from Module 1. Empirical filtering of traces based on established criteria is performed during bleach point identification, followed by manual selection into up to three subgroups. Histograms for each trace group can be plotted within the module, and tools for advanced plotting and fitting of FRET efficiency distributions can also be launched. Integrated instructions are available via the '?' buttons.
 
 
 Sample Data
@@ -35,7 +37,7 @@ Test data can be found in the smFRETSampleData folder.
 
 Acknowledgments
 ---------------
-smFRET.ai was developed at Stanford University.
+Fréton was developed at Stanford University.
 
 License
 -------
